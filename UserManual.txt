@@ -3,7 +3,7 @@
 2) Use less than 1amp charger to charge through USB.
 
 3) First plug in 12v DC, then turn on the switch for esp8266, then turn on remote by pluging in
-red jumper cable ar the back.
+red jumper cable at the back.
 
 4) Wait for 10-15 sec for the remote to pair with the LandMine Finder (car). When pairing successful bole LED will blink in the esp32. 
 
