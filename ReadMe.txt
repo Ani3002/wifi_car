@@ -2,7 +2,9 @@ Name of the Model: Landmine Finder
 
 READ THE USER MANUAL 
 
-Uses:
+
+
+USES:
 
 Find Anti-tank Mines during war time and during movement of troops in vulnerable areas.  Anti-tank Mines usually require 100-500 kg of force to detonate. This remotely operated robot can safely go over these as it is very light.
 
@@ -14,8 +16,9 @@ It can be used to clean up bombed areas after wartime and find unexploded explos
 
 
 
-Advantages:
+ADVANTAGES:
 
+Custom Developed Software and Algorithm
 Very lightweight
 Simple to use
 Cheap
@@ -26,8 +29,7 @@ Uses a widely used and secure HTTPS protocol to transfer data.
 
 
 
-Features and technology:
-
+FEATURES & TECHNOLOGIES:
 
 Custom Developed Software and Algorithm
 ESP32 & ESP8266 microcontroller 
