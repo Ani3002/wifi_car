@@ -5,9 +5,11 @@
 3) First plug in 12v DC, then turn on the switch for esp8266, then turn on remote by pluging in
 red jumper cable ar the back.
 
-4) Wait for 10-15 sec for the remote to pair with the Mine Finer (car). When pairing successful bole LED will blink in the esp32. 
+4) Wait for 10-15 sec for the remote to pair with the LandMine Finder (car). When pairing successful bole LED will blink in the esp32. 
 
 5) Do not push the joystick aggressively in any direction. Move it slowly and little bit in each direction.
 
 6) There are 3 modes in the Controller. Default mode after turning it on is 1. In mode 1 the blue led blinks 1 time, here the speed is low and it is the recommended speed. Uppon pressing the switch in the joistick it will enter into mode 2 and the LED will blink twice. Here the speed is high and is not recommended. It can be considered in traveling straight longer distances and when the area is oppen. Turning is highly prohibited in mode 2. Pressing the button one more, mode
-3 will be activated. In mode 3 .......
+3 will be activated. In mode 3 the car will not move. DO NOT PRESS THE JOISTICK SWITCH WHEN THE LandMine Finder IS MOVING.
+
+7) 
