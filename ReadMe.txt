@@ -1,3 +1,7 @@
+Name of the Model: Landmine Finder
+
+
+
 Uses:
 
 Find Anti-tank Mines during war time and during movement of troops in vulnerable areas.  Anti-tank Mines usually require 100-500 kg of force to detonate. This remotely operated robot can safely go over these as it is very light.
