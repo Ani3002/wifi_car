@@ -45,7 +45,7 @@ Low power consumption
 
 
 
-
+WORKING PRINCIPAL:
 
 
 
