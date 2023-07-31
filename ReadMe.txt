@@ -28,6 +28,8 @@ Uses a widely used and secure HTTPS protocol to transfer data.
 
 Features and technology:
 
+
+Custom Developed Software and Algorithm
 ESP32 & ESP8266 microcontroller 
 WiFi 802.11 b/g/n.      // b- high rate Wifi // g- short distance 54Mbps in 2.4 GHz // n- multiple input multiple output 
 Land Mine Detection
