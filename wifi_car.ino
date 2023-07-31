@@ -171,7 +171,8 @@ void stopRobot(){
 void loop() 
 {
 
-  server.handleClient(); 
+  
+  server.handleClient();     
   command = server.arg("State");
   if (command == "F") goAhead();  //
   else if (command == "F1")
@@ -237,7 +238,7 @@ void loop()
 
 
 
-
+  //Hazard Light blinking
   unsigned long currentMillis = millis();
   // Blink pattern logic
   if (blinkCount2 < 3) 
@@ -272,35 +273,22 @@ void loop()
     }
   }
   //Serial.println("blink2 running");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+//Communication Between Controller and Car
 
 void HTTP_handleRoot(void) 
 {
-  if( server.hasArg("State") )
+  if( server.hasArg("State") )      
   {
     //server.arg("State"));
   }
   
-  
+
+
+  // Check Metal Detector State
   MDState = digitalRead(MD);
   if (MDState == LOW)
   {
@@ -310,7 +298,8 @@ void HTTP_handleRoot(void)
   {
     MDStatee = "H";
   }
-
+ 
+  // Sends Metal Detector State to Controller
   server.send ( 200, "text/html",MDStatee);
   //Serial.println("HandleRoot running");
   //delay(1);
