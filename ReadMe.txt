@@ -1,6 +1,6 @@
 Name of the Model: Landmine Finder
 
-
+READ THE USER MANUAL 
 
 Uses:
 
