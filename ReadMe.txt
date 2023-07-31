@@ -48,5 +48,6 @@ Low power consumption
 WORKING PRINCIPAL:
 
 
+Metal Detector: It is an induction-based metal detector and has two coils. A transmitter coil that creates a magnetic field, and a receiver coil that senses changes when metal is close. When metal comes near, it makes eddy currents, creating a magnetic field that opposes the transmitter's field. The receiver coil detects this change and alerts us about the metal nearby.
 
 
