@@ -1,17 +1,15 @@
-1) DO NOT POWER ON MICROCONTROLLER WHILE CHARGING.
+Here are the corrected sentences with improved grammar and clarity:
 
-2) Use less than 1amp charger to charge through USB.
+1) DO NOT power on the microcontroller while it is charging.
 
-3) First plug in 12v DC, then turn on the switch for esp8266, then turn on remote by pluging in
-red jumper cable at the back.
+2) Use a charger that provides less than 1 amp of current to charge it through USB.
 
-4) Wait for 10-15 sec for the remote to pair with the LandMine Finder (car). When pairing successful blue LED will blink in the esp32. 
+3) First, plug in the 12V DC power source, then turn on the switch for the ESP8266, and finally, turn on the remote by plugging in the red jumper cable at the back.
 
-5) Do not push the joystick aggressively in any direction. Move it slowly and little bit in each direction.
+4) Wait for 10-15 seconds for the remote to pair with the LandMine Finder (car). When pairing is successful, the blue LED on the ESP32 will blink.
 
-6) There are 3 modes in the Controller. Default mode after turning it on is 1. In mode 1 the blue led blinks 1 time, here the speed is low and it is the recommended speed. Uppon pressing the switch in the joistick it will enter into mode 2 and the LED will blink twice. Here the speed is high and is not recommended. It can be considered in traveling straight longer distances and when the area is oppen. Turning is highly prohibited in mode 2. Pressing the button one more, mode
-3 will be activated. In mode 3 the car will not move. DO NOT PRESS THE JOISTICK SWITCH WHEN THE LandMine Finder IS MOVING.
+5) Do not push the joystick aggressively in any direction. Move it slowly and gently in each direction.
 
-7) If you want to operate the LandMine Finder (Car) using mobile phone you need to turn off the controller and restart the microcontroller by turning the black switch OFF and ON and the n connect teh phone wifi to the Car, turn off mobile data and hotspot and open the controller app. To use it with your controller again disconect the phone turn restsart the esp8266 and turn on the esp32 controller.
+6) The Controller has 3 modes. The default mode upon turning it on is Mode 1. In Mode 1, the blue LED blinks once. The speed is low, and this is the recommended speed. By pressing the switch on the joystick, you can enter Mode 2, and the LED will blink twice. In Mode 2, the speed is high and not recommended for turning. It's suitable for traveling straight over longer distances in open areas. Turning is highly discouraged in Mode 2. Pressing the button once more will activate Mode 3, in which the car will not move. DO NOT PRESS THE JOYSTICK SWITCH WHEN THE LandMine Finder IS MOVING.
 
-
+7) If you want to operate the LandMine Finder (Car) using a mobile phone, you need to turn off the controller. Restart the microcontroller by turning the black switch OFF and ON, then connect your phone's Wi-Fi to the Car. Turn off mobile data and hotspot, and open the controller app. To use it with your controller again, disconnect the phone, restart the ESP8266, and turn on the ESP32 controller.
